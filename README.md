@@ -30,6 +30,7 @@ The project follows this structure:
 1. **Frontend**: A React application hosted with AWS Amplify, integrated with Amplify Auth for user authentication.
 2. **Backend**: AWS Lambda functions that handle AI-powered recipe generation using Amazon Bedrock.
 3. **GraphQL API**: AWS AppSync serves as the interface between the frontend and backend, using GraphQL queries and mutations to fetch and store data.
+<img width="685" alt="image" src="https://github.com/user-attachments/assets/4952cb84-cc6a-4724-8a47-91471ec58ff4">
 
 ### **Project Structure**
 
