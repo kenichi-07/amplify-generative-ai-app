@@ -1,0 +1,13 @@
+type Recipe @model {
+    id: ID!
+    input: String!
+    output: String
+}
+
+type Query {
+    getRecipe(input: String!): Recipe
+}
+
+type Mutation {
+    generateRecipe(input: String!): Recipe
+}
